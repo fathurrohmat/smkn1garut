@@ -15,7 +15,7 @@ class Pegawai extends CI_Controller{
         endif;
         $limit=8;
         $config['base_url'] = base_url() . 'pegawai/index/';
-            $config['total_rows'] = $jum->num_rows();
+            $config['config_total_rows'] = $jum->num_rows();
             $config['per_page'] = $limit;
             $config['uri_segment'] = 3;
 						//Tambahan untuk styling
